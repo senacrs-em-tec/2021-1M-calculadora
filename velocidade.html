@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="velocidade.css">
+</head>
+<body><header>
+  <img src="velocimetro.png" alt="">
+    <h1>Conversor de velocidade</h1>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="C4.html">Calculadora</a></li>
+            <li><a href="temperatura.html">Temperatura</a></li>
+            <li><a id="vy" href="velocidade.html">Velocidade</a></li>
+           
+          </ul>
+        </nav> 
+      </div>
+      
+      <div class="menu-bg" id="menu-bg"></div>
+      </header>
+<main>
+        <section class="inputs">
+         <ul>  
+        <li>  <Label for="Pés por segundo">Pés por segundo: </Label><input type="number" name="Pés por segundo"  id="Pés por segundo" class="input" ></li>
+        <li>  <Label for="Metro por segundo">Metro por segundo: </Label><input type="number" name="Metro por segundo" id="Metro por segundo" class="input" ></li>
+        <li>  <Label for="Quilômetro por hora">Quilômetro por hora: </Label><input type="number" name="Quilômetro por hora" id="Quilômetro por hora" class="input" ></li>
+        
+        <li>  <Label for="Milha por hora">Milha por hora: </Label><input type="number" name="Milha por hora" id="Milha por hora" class="input" ></li>
+        <li>  <Label id="hm" for="Nó">Nó: </Label><input type="number" name="Nó" id="Nó" class="input" ></li>
+      </ul>   
+        </section>
+    </main>
+    <script src="velocidade.js"></script>
+</body>
+</html>
